@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mygym">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mygymlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mygymlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyGym">
+        <activity android:name=".Show_user_Workout"></activity>
+        <activity android:name=".Show_Deit_user"></activity>
+        <activity android:name=".Set_workout_admin" />
+        <activity android:name=".set_deit_admin" />
+        <activity android:name=".update_profile_user" />
+        <activity android:name=".Show_User_Profile" />
+        <activity android:name=".Update_Gym_Profile" />
+        <activity android:name=".Show_Gym_Profile" />
+        <activity android:name=".Delete_User" />
+        <activity android:name=".UpdateUser_admin" />
+        <activity android:name=".ShowAllUser" />
+        <activity android:name=".add_user" />
+        <activity android:name=".admin_dashboard" />
+        <activity android:name=".user_dashboard" />
+        <activity android:name=".gym_registration" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".UserLogIn" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
